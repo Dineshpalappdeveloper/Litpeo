@@ -1,0 +1,319 @@
+.leftAside {
+  width: 18vw;
+  position: relative;
+  height: 100vh;
+  background-color: blue;
+}
+* {
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.mainTab {
+  height: 2.3rem;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mainlogo {
+  width: 2rem;
+  margin: 14px;
+  padding-top: 8px;
+  height: 2rem;
+  margin-left: 1rem;
+}
+.dashbordText {
+  color: white;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 24px;
+}
+.ActiveUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  border-radius: 6px;
+  margin: 1.5rem;
+  position: absolute;
+  bottom: 4%;
+  left: 2%;
+  width: 12rem;
+  box-sizing: border-box;
+  background-color: rgb(166, 166, 236);
+}
+
+.userDetails {
+  display: flex;
+  height: 3rem;
+  padding-left: 1%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.userMoreInfo {
+  font-size: large;
+}
+
+.userPic {
+  width: 2rem;
+  padding: 2px;
+  margin: 8px;
+  height: 2rem;
+}
+.nameCon {
+  display: flex;
+  flex-direction: column;
+}
+.activeTab {
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 5px;
+  background-color: rgb(174, 201, 252);
+  margin: 6px;
+  align-items: center;
+}
+.subTabs {
+  margin: 2rem;
+  box-sizing: border-box;
+}
+.tablogo {
+  width: 2rem;
+  padding: 2px;
+  margin: 8px;
+  height: 2rem;
+}
+span {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+.unActiveTab {
+  box-sizing: border-box;
+  display: flex;
+  padding-right: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.unActivecon {
+  display: flex;
+  align-items: center;
+}
+body {
+  background-color: aliceblue;
+}
+.rightAside {
+  padding: 0.5rem;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+.superParent {
+  display: flex;
+  width: 98.5vw;
+  height: 99vh;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcomeUser {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+.searchInput {
+  background-color: white;
+  border-radius: 5px;
+  border: 1 solid white;
+  width: 14rem;
+  font-size: 24px;
+}
+.records {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle {
+  height: 8rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 8rem;
+  border-radius: 50%;
+}
+.cardParent {
+  height: 12rem;
+  margin: 2rem 0px;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  width: 18rem;
+  box-sizing: border-box;
+  background-color: white;
+}
+.circleImage {
+  height: 4rem;
+  width: 4rem;
+}
+.Earnig {
+  color: #000;
+}
+.percentage {
+  color: green;
+}
+.dolor {
+  color: #000;
+}
+.months {
+  color: #000;
+}
+.loseGain span {
+  display: inline;
+  font-size: 12px;
+  width: 100%;
+}
+.moreInfo {
+  color: #000;
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  flex-direction: column;
+}
+.overviewparent {
+  display: flex;
+  justify-content: space-between;
+}
+.overviewMain {
+  width: 70%;
+  background-color: white;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 32vh;
+  box-sizing: border-box;
+}
+.overHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.rightAside span {
+  color: #000;
+}
+.gray {
+  color: gray;
+}
+.overviewText {
+  font-weight: bolder;
+}
+.overviewData {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.quelity {
+  display: flex;
+  align-items: center;
+}
+.dataParent {
+  align-items: flex-start;
+}
+.special {
+  background-color: blue;
+}
+.data {
+  height: 100px;
+  width: 2rem;
+  background-color: rgb(216, 225, 225);
+  border-radius: 5px;
+}
+/* // jhekjdn */
+.dataParent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.CoustombersParent {
+  width: 30%;
+  padding: 1rem;
+  height: 32vh;
+  background-color: white;
+}
+.overRoll {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 10px 25px;
+  width: 2rem;
+  background-color: white;
+  height: 2rem;
+  box-sizing: border-box;
+}
+.headinds {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.overrollImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 9rem;
+  position: relative;
+  left: 12vh;
+  top: 4vw;
+  height: 9rem;
+  box-sizing: border-box;
+}
+/* hello  */
+
+.productParent {
+  display: flex;
+  justify-content: space-between;
+}
+.ProductDetails {
+  width: 70%;
+  background-color: white;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25vh;
+  box-sizing: border-box;
+}
+.singleProduct {
+  display: flex;
+}
+.ProductData {
+  width: 30%;
+  padding: 1rem;
+  height: 25vh;
+  box-sizing: border-box;
+  background-color: white;
+}
+.productBrand {
+  display: block;
+}
+.productlogo {
+  height: 1.4rem;
+  width: 2.5rem;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.strong {
+  /* font-size: 1.14rem; */
+  font-weight: 800;
+}
+.searchParent1 {
+  display: flex;
+  justify-content: space-between;
+}
+.gray {
+  color: grey;
+  font-weight: 400;
+}
